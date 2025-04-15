@@ -1,0 +1,26 @@
+# CI-CD Pipeline for Shopping Cart Application
+
+This project demonstrates a complete CI-CD pipeline setup using **Jenkins** for a Java-based shopping cart application.
+
+### 🔧 Technologies Used:
+- Jenkins
+- Java 17
+- Maven
+- SonarQube
+- OWASP Dependency-Check
+- Docker & Docker Hub
+- GitHub
+
+### ✅ CI Pipeline Includes:
+- Cloning code from GitHub
+- Compiling Java project using Maven
+- SonarQube static code analysis
+- OWASP dependency vulnerability scan
+- Building Docker image and pushing to Docker Hub
+- Triggering downstream CD pipeline
+
+### 🚀 CD Pipeline Includes:
+- Pulling latest Docker image
+- Deploying the container on port 8070
+
+This pipeline ensures code quality, security checks, automated packaging, and streamlined deployment.
