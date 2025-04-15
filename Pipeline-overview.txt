@@ -1,4 +1,4 @@
-# shoafadfafasfgasgaspdfdsgfdsping-cartyyy
+# Shopping-Cart
 CI-CD pipeline using Jenkins for a sample shopping cart application
 This project sets up a complete CI-CD pipeline using Jenkins for a sample shopping cart application hosted on GitHub. It integrates key DevOps practices such as:
 
